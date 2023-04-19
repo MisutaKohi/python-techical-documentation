@@ -114,3 +114,24 @@ section {
 section p, section ul {
     margin-left: 10px;
 }
+
+.code-block {
+    background-color: rgb(210, 210, 210);
+    width: 80%;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+.code-block code {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-list li {
+    margin-bottom: 5px;
+}
+
+#page-end {
+    padding-bottom: 30px;
+}
+
