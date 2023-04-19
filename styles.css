@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    display: flex;
 }
 
 .navbar-div {
@@ -16,26 +17,40 @@ body {
     border-right: 3px black solid;
 }
 
+#nav-list {
+    margin-left: 0px;
+    padding-left: 0;
+}
+
 nav > header {
     text-align: center;
     padding-top: 20px;
     font-size: 1.5rem;
     font-weight: bold;
+    color: rgb(237, 202, 89);
 }
 
-li > a {
+.nav-link {
+    width: 172px;
+    height: 43px;
+    position: absolute;
+    text-align: center;
+    padding-top: 12px;
     text-decoration: none;
+    color:rgb(232, 232, 232)
+}
+
+.nav-link:hover {
+    background-color: rgb(232, 232, 232);
+    color: black;
 }
 
 .navigation {
-    list-style: none;
-    padding: 5px;
-    width: 100%;
-    border-top: 3px solid black;
-    margin-left: 0;
+    border-top: 2px black solid;
+    height: 45px;
 }
 
-#nav-list {
-    margin-left: 0px;
-    padding-left: 0;
+.navigation:last-of-type {
+    border-bottom: 2px solid black;
 }
+
