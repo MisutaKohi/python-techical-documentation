@@ -98,19 +98,19 @@ main {
     padding: 20px;
 }
 
-.main-section {
-    border: 2px gold solid;
-}
-
 .main-section > header {
     font-weight: bold;
 }
 
 section header {
     font-size: 1.5rem;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 section {
     margin-bottom: 15px;
+}
+
+section p, section ul {
+    margin-left: 10px;
 }
