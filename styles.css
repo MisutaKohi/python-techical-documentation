@@ -2,7 +2,7 @@
     .navbar-div {
         height: 200px !important;
         width: 100% !important;
-        position: absolute;
+        position: static !important;
         border-right: none !important;
         border-bottom: 3px black solid !important;
     }
@@ -28,7 +28,6 @@
 
     main {
         margin: 0 !important;
-        margin-top: 195px !important;
     }
 }
 
@@ -99,3 +98,10 @@ main {
     padding: 20px;
 }
 
+.main-section {
+    border: 2px gold solid;
+}
+
+.main-section > header {
+    font-weight: bold;
+}
