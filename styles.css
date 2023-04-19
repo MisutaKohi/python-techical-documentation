@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar-div {
+    background-color: rgb(248, 255, 231);
+    height: 100vw;
+    width: 175px;
+    margin: 0;
+    padding: 0;
+}
