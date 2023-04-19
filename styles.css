@@ -1,5 +1,40 @@
+@media (max-width: 450px) {
+    .navbar-div {
+        height: 200px !important;
+        width: 100% !important;
+        position: absolute;
+        border-right: none !important;
+        border-bottom: 3px black solid !important;
+    }
+
+    #nav-list {
+        width: 100% !important;
+        height: 135px !important;
+        position: relative !important;
+        overflow: scroll !important;
+    }
+
+    .navigation {
+        width: 100% !important;
+    }
+    
+    .nav-link {
+        width: 100% !important;
+    }
+    
+    #last {
+        border-bottom: none !important;
+    }
+
+    main {
+        margin: 0 !important;
+        margin-top: 195px !important;
+    }
+}
+
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -35,12 +70,17 @@ nav > header {
 
 .nav-link {
     width: 172px;
-    height: 43px;
+    height: 45px;
     position: absolute;
     text-align: center;
     padding-top: 12px;
     text-decoration: none;
-    color:rgb(232, 232, 232)
+    color:rgb(232, 232, 232);
+    border-top: 2px black solid;
+}
+
+#last {
+    border-bottom: 2px black solid;
 }
 
 .nav-link:hover {
@@ -49,16 +89,13 @@ nav > header {
 }
 
 .navigation {
-    border-top: 2px black solid;
     height: 45px;
 }
 
-.navigation:last-of-type {
-    border-bottom: 2px solid black;
-}
 
 main {
     margin-left: 175px;
     height: 1200px;
     padding: 20px;
 }
+
